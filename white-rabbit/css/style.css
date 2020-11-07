@@ -1,0 +1,459 @@
+body{
+    margin: 0;
+    font-family: 'Sailec';
+}
+p,h1,h2,h3,h5 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Sailec';
+}
+.landing-section {
+    position: relative;
+    height: 100vh;
+}
+.landing-section header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    z-index: 99999;
+}
+header .navbar-nav {
+    padding: 25px 0;
+}
+header .navbar-nav img {
+    width: 20px;
+    height: 16px;
+    margin-left: 18px;
+    display:flex;
+    margin-right: 12px;
+}
+header .navbar-nav .img-cart {
+    margin-left: 0;
+    margin-top: -3px;
+    margin-right: 0;
+    display: inline-flex;
+    height: 16px;
+}
+header .navbar-nav li a {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #151442;
+}
+.navbar-brand img  {
+    width: 88px;
+}
+.flex-end-d {
+    justify-content: flex-end;
+}
+.w3-badge {
+    background-color: #151442;
+    color: #fff;
+    display: inline-flex;
+    padding: 5px 6px;
+    text-align: center;
+    font-size: 7px;
+    line-height: 1;
+    border-radius: 30px;
+    margin-right: 2px;
+}
+.landing-left-div {
+    background: #102421;
+    height: 100vh;
+}
+.landing-right-div {
+    background: #FFFFFF;
+    height: 100vh;
+    position: relative;
+}
+.landing-right-div img {
+    position: absolute;
+    max-width: 100%;
+    width: 498px;
+    left: -91px;
+    top: 103px;
+    border-radius: 1px;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.vertical-content {
+    display: block;
+    text-align: left;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+}
+.vertical-content .p1 {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #D2D2D2;
+    margin-bottom: 0;
+    line-height: 120.5%;
+    letter-spacing: 0.5em;
+    padding-bottom: 8px;
+}
+.vertical-content h1 {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 111.5%;
+    margin: 0;
+}
+ .h1-span {
+    display: block;
+}
+.vertical-content .p2 {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120.5%;
+    padding-top: 34px;
+    color: #D2D2D2;
+}
+.link-btns{
+    margin-top: 50px;
+}
+.link-btns a {
+    padding: 12px 21px;
+    color: #102421;
+    background: #C7E1BF;
+    border-radius: 48px;
+    margin-right: 20px;
+    font-size: 14   px;
+    font-weight: 400;
+    font-family: 'Sailec';
+}
+.link-btns a:hover, .products-button:hover {
+    text-decoration: none;
+    color: #000;
+}
+.Products-section {
+    margin: 60px 0;
+}
+.default-h1 {
+    text-align: center;
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120.5%;
+    color: #151442;
+    padding: 15px 0;
+}
+.vertical-aligned {
+    display: block;
+    text-align: center;
+    color: #151442;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.vertical-aligned img {
+    width: 230px;
+}
+.vertical-aligned h3 {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 149.5%;
+    color: #151442;
+}
+.vertical-aligned  h5 {
+    color: #8F9095;
+    padding: 8px 0;
+    font-size: 13px;
+}
+.vertical-aligned  p {
+    color: #8F9095;
+    padding: 8px 0;
+    font-size: 14px;
+} 
+.products-button {
+    position: absolute;
+    right: 57px;
+    top: 22px;
+    border: 1px solid #102421;
+    border-radius: 31px;
+    color: #151442;
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120.5%;
+    padding: 10px 19px;
+}
+.Products-section {
+    position: relative;
+}
+.products-button img {
+    width: 20px;
+    padding: 2px;
+    margin-top: -5px;
+}
+.clients-section {
+    background: url("../images/Rectangle 6.png")no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.clients-conts {
+    background: #FFF3F3;
+    color: #000;
+    padding: 40px 70px;
+    margin: 50px 0;
+}
+ .clients-conts h1  {
+    letter-spacing: 2px;
+    font-size: 38px;
+    line-height: 41px;
+    padding-bottom: 22px;
+    font-family: 'Sailec';
+    margin-bottom: 31px;
+}
+.clients-conts p {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.clients-div-left h1 {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 53px;
+}
+.clients-head {
+    position: relative;
+}
+.clients-head:before{
+    content: '';
+    background: url(../images/Vectora.png) no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+    position: absolute;
+    left: -52px;
+}
+.clients-head:after {
+    content: '';
+    background: url(../images/Vectorb.png) no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -25px;
+    right: -32px;
+}
+.tablets-section  {
+    margin: 60px 0;
+    position: relative;
+    margin-left: 80px;
+}
+.tablets-section .products-button {
+    border: 1px solid #102421;
+    border-radius: 31px;
+    color: #FFFFFF;
+    background: #102421;
+    font-size: 14px;
+}
+.tablets-section .vertical-aligned h3 {
+    padding-top: 20px;
+}
+.tablets-section .vertical-aligned p {
+    padding: 0 25px;
+}
+.owl-carousel {
+    padding-top: 40px;
+}
+footer {
+    background: #0F2421;
+    color: #FFFFFF;
+    padding: 80px 40px;
+}
+footer  ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 31px;
+}
+footer  ul li a,footer  ul li {
+    color: #FFFFFF;
+    list-style-type: none;
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 282.5%;
+}
+footer  ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer h1{
+    font-size: 50px;
+    font-family: 'Sailec';
+}
+footer p {
+    font-family: 'Sailec';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 282.5%;
+    padding-top: 25px;
+}
+footer h5 {
+        font-family: 'Sailec';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+}
+
+
+@media only screen and (max-width: 1024px) { 
+    .vertical-content {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .landing-right-div img {
+        position: absolute;
+        width: 404px;
+        left: -38px;
+    }
+    header .navbar-nav img {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .landing-right-div{  
+        display: none;
+    }
+    header .navbar-nav  li a {
+        color: #fff;
+    }
+    .w3-badge {
+        background-color: #fff;
+        color: #000;
+    }
+    .default-h1 {
+        font-size: 32px;
+    }
+    .products-button {
+        position: absolute;
+        right: 39px;
+        top: -30px;
+    }
+    .h1-span {
+        display: inline-block;
+    }
+    .clients-div-left.vertical-center  {
+            position: relative;
+    }
+    .clients-div-left h1 {
+        font-size: 31px;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .tablets-section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .vertical-aligned h3 {
+        font-size: 16px;
+    }    
+    footer .vertical-center {
+        position: relative;
+    }
+    footer {
+        padding: 15px 40px;
+    }
+    footer h1{
+        text-align: center;
+    }
+    footer h1, footer p {
+        text-align: center;
+        padding-top: 0;
+    }
+    footer ul,footer h5 {
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 480px) { 
+.navbar-nav .nav-link {
+        color: #000;
+        text-align: center;
+    }
+    header .navbar-nav {
+        background: #fff;
+    }
+    .navbar-toggler {
+        background-color: #c7e1bf !Important;
+    }
+    header .navbar-nav img {
+        margin-right: 12px;
+        margin: 0 auto;
+    }
+    .w3-badge {
+        background-color: #000;
+        color: #fff;
+    }
+    .clients-conts h1 {
+        letter-spacing: 2px;
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+    .products-button {
+        position: absolute;
+        right: 12px;
+        top: 62px;
+    }
+    .tablets-section {
+        margin: 15px 0;
+    }
+    .products-button {
+        margin: 0 auto;
+        position: absolute;
+        width: 145px;
+        top: 62px;
+        left: 0;
+        right: 0;
+    }
+    .vertical-content h1{
+        font-size: 47px; 
+    }
+    .link-btns a {
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 480px) { 
+    .vertical-content {
+        margin-left: 0;
+    }
+    .link-btns a {
+        display: block;
+        margin-top: 10px;
+    }
+    .clients-conts {
+        background: #FFF3F3;
+        color: #000;
+        padding: 22px 58px;
+    }    
+}
